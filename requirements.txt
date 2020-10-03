@@ -1,0 +1,3 @@
+pandas==1.1.2
+dash
+cassandra-driver==3.24.0
