@@ -23,7 +23,7 @@ styles = {
     }
 }
 
-df = pd.read_csv('curr_and_gold.csv')
+# df = pd.read_csv('curr_and_gold.csv')
 
 # from cassandra.cluster import Cluster
 #
@@ -47,8 +47,8 @@ colors = ['firebrick', 'blue', 'red', 'gold', 'grey', 'silver', 'crimson',
           'pink', 'yellow', 'lime', 'aqua', 'salmon','brown', 'purple', 'grey', 'magenta', 'violet']
 
 fig = go.Figure()
-for i, code in enumerate(codes):
-    res = df[df.code == code]
+# for i, code in enumerate(codes):
+#     res = df[df.code == code]
     #fig = px.scatter(res, x="date", y="bid")
     # fig.add_trace(go.Scatter(x=res.date, y=res.bid, name=str(res.currency.iloc[0]),
     #                          line=dict(color=colors[i], width=3)))
